@@ -1,3 +1,10 @@
+# Git
+alias gs="git status"
+alias gd="git diff"
+alias ga="git add -A"
+alias gp="git push"
+
+# Stuff
 alias ll='ls -l'
 alias lla='ls -la'
 

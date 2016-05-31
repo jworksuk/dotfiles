@@ -21,9 +21,11 @@ cask 'vagrant'
 cask 'iterm2'
 cask 'sequel-pro'
 cask 'sublime-text3'
+cask 'charles'
 
 # Misc
 cask '1password'
+cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
 cask 'torbrowser'
