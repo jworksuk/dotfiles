@@ -22,6 +22,7 @@ cask 'iterm2'
 cask 'sequel-pro'
 cask 'sublime-text3'
 cask 'charles'
+cask 'ngrok'
 
 # Misc
 cask '1password'
