@@ -23,6 +23,7 @@ cask 'sequel-pro'
 cask 'sublime-text3'
 cask 'charles'
 cask 'ngrok'
+cask 'postman'
 
 # Misc
 cask '1password'
