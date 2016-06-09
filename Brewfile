@@ -6,6 +6,7 @@ brew 'openssl'
 brew 'python'
 brew 'node'
 brew 'wget'
+brew 'ncdu'
 
 # Misc Mac Apps
 tap 'caskroom/cask'
