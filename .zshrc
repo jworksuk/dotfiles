@@ -84,6 +84,14 @@ export EDITOR='nano'
 alias ll='ls -l'
 alias lla='ls -la'
 
+# Vagrant aliases
+alias vi="vagrant init"
+alias vu="echo 'Starting VM' && vagrant up"
+alias vup="echo 'Starting VM' && vagrant up --provision"
+alias vp="vagrant provision"
+alias vh="vagrant halt"
+alias vs="vagrant ssh"
+
 alias myip='curl ip.appspot.com'
 
 syslink () { ln -s $1 $2 } 
