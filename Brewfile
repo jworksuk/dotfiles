@@ -18,6 +18,13 @@ cask 'flux'
 cask 'virtualbox'
 cask 'vagrant'
 
+# PHP
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+tap 'homebrew/homebrew-php'
+brew 'php56'
+brew 'composer'
+
 # Dev Stuff
 cask 'iterm2'
 cask 'sequel-pro'
