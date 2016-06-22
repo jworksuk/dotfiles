@@ -74,6 +74,9 @@ export EDITOR='nano'
 # PHP
 export PATH="$(brew --prefix homebrew/php/php56)/bin:/usr/local/sbin:$PATH"
 
+# PHP aliases
+alias phpunit='~/.composer/vendor/bin/phpunit'
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
