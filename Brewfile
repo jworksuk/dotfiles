@@ -5,6 +5,7 @@ brew 'httpie'
 brew 'openssl'
 brew 'python'
 brew 'node'
+brew 'xz'
 brew 'wget'
 brew 'ncdu'
 
