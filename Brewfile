@@ -46,3 +46,13 @@ cask 'steam'
 cask 'transmission'
 cask 'tunnelbear'
 cask 'vlc'
+
+# Quicklooks
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'betterzipql'
+cask 'qlimagesize'
+cask 'suspicious-package'
