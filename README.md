@@ -11,7 +11,7 @@ You'll need `homebrew` and `oh-my-zsh`
 Try this, I haven't tested that to be honest so it might now work, if you don't have homebrew after that follow these instructions [homebrew](http://brew.sh/)
 
 ```bash
-source homebrew/install.sh
+sh homebrew/install.sh
 ```
 
 ### Oh My Zsh
