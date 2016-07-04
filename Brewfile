@@ -8,6 +8,8 @@ brew 'node'
 brew 'xz'
 brew 'wget'
 brew 'ncdu'
+# brew 'git'
+# brew 'zsh'
 
 # Misc Mac Apps
 tap 'caskroom/cask'
@@ -18,6 +20,7 @@ cask 'flux'
 # VMs and Vagrant
 cask 'virtualbox'
 cask 'vagrant'
+cask 'vagrant-manager'
 
 # PHP
 tap 'homebrew/dupes'
