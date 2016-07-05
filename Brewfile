@@ -26,7 +26,8 @@ cask 'vagrant-manager'
 tap 'homebrew/dupes'
 tap 'homebrew/versions'
 tap 'homebrew/homebrew-php'
-brew 'php56'
+brew 'php56', args: ['with-debug']
+brew 'php56-xdebug'
 brew 'composer'
 
 # Dev Stuff
