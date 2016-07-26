@@ -33,7 +33,7 @@ brew 'composer'
 # Dev Stuff
 cask 'iterm2'
 cask 'sequel-pro'
-cask 'sublime-text3'
+cask 'sublime-text'
 cask 'charles'
 cask 'ngrok'
 cask 'postman'
