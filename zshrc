@@ -33,7 +33,7 @@ export EDITOR='nano'
 
 
 # PHP Stuff
-export PATH="$(brew --prefix homebrew/php/php56)/bin:/usr/local/sbin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php70)/bin:/usr/local/sbin:$PATH"
 
 # Add global composer bin to PATH
 export PATH="$HOME/.composer/vendor/bin:$PATH"
