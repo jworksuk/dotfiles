@@ -32,6 +32,7 @@ tap 'homebrew/homebrew-php'
 brew 'php70'
 brew 'php70-xdebug'
 brew 'composer'
+brew 'graphviz'
 
 # Dev Stuff
 cask 'iterm2'
