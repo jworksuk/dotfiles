@@ -31,14 +31,11 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR='nano'
 
-
-# PHP Stuff
-export PATH="$(brew --prefix homebrew/php/php70)/bin:/usr/local/sbin:$PATH"
-
 # Add global composer bin to PATH
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+[[ -f ~/.aliases-extras ]] && source ~/.aliases-extras
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

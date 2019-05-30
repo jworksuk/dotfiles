@@ -6,12 +6,15 @@ alias vp="vagrant provision"
 alias vh="vagrant halt"
 alias vs="vagrant ssh"
 
+alias lla='ls -al'
+alias ll='ls -l'
+
 homestead() {
     ( cd ~/Sites/Homestead && vagrant $* )
 }
 
 # Whats My IP Address
-alias myip='curl ip.appspot.com; echo'
+alias myip='curl ipecho.net/plain; echo'
 
 syslink () { ln -s $1 $2 } 
 

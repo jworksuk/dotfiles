@@ -58,3 +58,16 @@ Go into detail about brewfile, it's too big
 # Work In Progress
 
 - QuickLook bugs
+
+
+```
+# create .aliases
+touch ~/.aliases
+
+#
+ln -s {{ repo root }}/git/gitignore {{ user root }}/.gitignore
+
+ln -s {{ repo root }}/zshrc {{ user root }}/.zshrc
+
+ln -s {{ repo root }}/aliases-extras {{ user root }}/.aliases-extras
+```
